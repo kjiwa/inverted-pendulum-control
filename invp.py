@@ -109,7 +109,7 @@ class ControlledInvertedPendulumPlant:
 
     def input(self):
         """Computes the input to apply to the plant."""
-        #   u = u_e - K z_hat
+        # u = u_e - K z_hat
         return self.u_eq - np.matmul(self.K, self.z_hat)[0]
 
     def output(self):
