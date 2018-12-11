@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program implements a nonlinear model and controller for the inverted pendulum. The controller seeks maintain a particular equilibrium (33 degrees was chosen arbitrarily) by computing the torque needed to restore the pendulum to that point. To mimick reality, the controller may not access the pendulum's state, and so the state is estimated using a linearized model.
+This program implements a nonlinear model and controller for the inverted pendulum. The controller seeks to maintain a particular equilibrium (33 degrees was chosen arbitrarily) by computing the torque needed to restore the pendulum to that point. To mimick reality, the controller may not access the pendulum's state, and so the state is estimated using a linearized model.
 
 ## Results
 
